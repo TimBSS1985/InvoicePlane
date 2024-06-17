@@ -5,10 +5,11 @@
 # Set your URL without trailing slash here, e.g. http://your-domain.com
 # If you use a subdomain, use http://subdomain.your-domain.com
 # If you use a subfolder, use http://your-domain.com/subfolder
-IP_URL=
+IP_URL=http://invoiceplane-866e401b9e40.deltablue.io/
+
 
 # Having problems? Enable debug by changing the value to 'true' to enable advanced logging
-ENABLE_DEBUG=false
+ENABLE_DEBUG=true
 
 # Set this setting to 'true' if you want to disable the setup for security purposes
 DISABLE_SETUP=false
@@ -18,11 +19,11 @@ DISABLE_SETUP=false
 REMOVE_INDEXPHP=false
 
 # These database settings are set during the initial setup
-DB_HOSTNAME=
-DB_USERNAME=
-DB_PASSWORD=
-DB_DATABASE=
-DB_PORT=
+DB_HOSTNAME=127.0.0.1
+DB_USERNAME=tim
+DB_PASSWORD=tim
+DB_DATABASE=invoiceplane
+DB_PORT=3306
 
 # If you want to be logged out after closing your browser window, set this setting to 0 (ZERO).
 # The number represents the amount of minutes after that IP will automatically log out users,
